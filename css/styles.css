@@ -1,0 +1,204 @@
+:root {
+   /* fonts*/
+    --main-font: 'Roboto', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
+    /* text colors*/
+    --main-txt-cl: #212121;
+    --accent-txt-cl: #2196F3;
+
+    /* bg colors*/
+    --light-bg-cl: #FFFFFF;
+    --dark-bg-cl: #2F303A;
+
+    /* others*/
+
+
+}
+
+body {
+font-family: var(--main-font);
+color: var(--main-txt-cl);
+}
+
+/* reset styles*/
+.link{
+    text-decoration: none;
+   color: currentColor;
+}
+.list{
+    list-style: none;
+}
+
+/* Header */
+/* logo*/
+.logo-link, .logo_footer{
+font-family: var(--secondary-font);
+font-weight: 700;
+font-size: 26px;
+line-height: calc(31 / 26);
+letter-spacing: 0.03em;
+}
+.first-three{
+color: var(--accent-txt-cl);
+}
+.other{
+    color: #000000;
+}
+.header-link{
+ font-weight: 500;
+font-size: 14px;
+line-height: 1.33;
+letter-spacing: 0.02em;
+
+color: #212121;
+}
+.header-link-current{
+    color: var(--accent-txt-cl);
+}
+.header-phone,.header-mail{
+font-weight: 500;
+font-size: 14px;
+line-height: calc(16 / 14);
+letter-spacing: 0.02em;
+color: #757575;
+}
+
+.header-item:hover,
+.header-item:focus,
+.header-mail:hover,
+.header-mail:focus,
+.header-phone:hover,
+.header-phone:focus
+{color: var(--accent-txt-cl);
+
+}
+
+/* Maine */
+.main_picture{
+    background-color: var(--dark-bg-cl);
+}
+.main_title{
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+.button{
+font-family: inherit;
+font-weight: 700;
+font-size: 16px;
+line-height: calc(30 / 16);
+letter-spacing: 0.06em;
+background-color: #2196F3;
+color: #FFFFFF;
+cursor: pointer;
+}
+.button:hover,
+.button:focus{
+    background-color: blue;
+}
+/* Work priorities */
+.priorities_title{
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #212121;
+}
+.text{
+
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: #757575;
+
+}
+/* What we doing */
+.about-title, .team-title{
+ font-weight: 700;
+font-size: 36px;
+line-height: calc(42 / 36);
+text-align: center;
+letter-spacing: 0.03em;
+}
+
+.team{
+    background-color: #F5F4FA;
+}
+.team-subtitle {
+font-weight: 500;
+font-size: 16px;
+line-height: calc(19 / 16);
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--main-font);
+}
+.team-text{
+    font-size: 16px;
+    line-height: calc(19 / 16);
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: #757575;
+    
+    
+}
+/*Footer*/
+.footer{
+    background-color: 
+    #2F303A;
+}
+.address{
+font-family: inherit;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: calc(24 /14);
+letter-spacing: 0.03em;
+color: #FFFFFF;
+}
+.footer-mail, .footer-phone{
+font-family: inherit;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: calc(24 / 14);
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}
+.other-footer{
+    color: #FFFFFF;
+}
+/*Portfolio*/
+.photo-title{
+font-weight: 700;
+font-size: 18px;
+line-height: calc(36 / 18);
+letter-spacing: 0.06em;
+}
+.photo-text{
+font-weight: 400;
+font-size: 16px;
+line-height: calc(30 / 16);
+letter-spacing: 0.03em;
+color: #757575;
+}
+.btn-portfolio{
+font-family: inherit;
+font-weight: 500;
+font-size: 16px;
+line-height: calc(26 / 16);
+color: #212121;
+background-color: #F5F4FA;
+cursor: pointer;
+}
+.btn-portfolio:hover,
+.btn-portfolio:focus{
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
