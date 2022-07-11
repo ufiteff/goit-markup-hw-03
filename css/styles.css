@@ -58,13 +58,15 @@
  /* logo*/
  .header-container{
      display: flex;
+     padding-top: 24px;
+     padding-bottom: 24px;
+     border-bottom: 2px solid black
  }
  .header-nav 
  {
      display: flex;
      align-items: center;
-     padding-top: 32px;
-     padding-bottom: 32px;
+  
      
  }
  .logo-link{
@@ -108,15 +110,13 @@
  .header-item:last-child{
      margin-right: 0;
  }
- .contact_type_mail
- {
-     margin: auto;
- }
  
- .header-mail{
-     margin-right: 50px;
- }
+ 
+ 
+    
+ 
  .header-phone,.header-mail{
+ margin: auto;
  font-weight: 500;
  font-size: 14px;
  line-height: calc(16 / 14);
@@ -137,6 +137,8 @@
  /* Maine */
  .main_picture{
      background-color: var(--dark-bg-cl);
+     padding-top: 0px;
+     padding-bottom: 0px;
  
  }
  .main_title{
@@ -183,6 +185,10 @@
      background-color: blue;
  }
  /* Work priorities */
+ .priorities{
+    padding-top: 0;
+    padding-bottom: 0;
+ }
  .work-list{
      display: flex;
      padding-top: 94px;
@@ -219,11 +225,14 @@
      margin-right: 0;
  }
  /* What we doing */
+ .about_work{
+    padding-top: 0px;
+    padding-bottom: 0px;
+ }
  .about-list{
      display: flex;
      gap: 30px;
-     padding-top: 94px;
-     padding-bottom: 94px;
+     
  }
  .img-item{
      flex-basis: calc((100%-30px*2)/3);
@@ -259,6 +268,8 @@
  
  .team{
      background-color: #F5F4FA;
+     padding-top: 0;
+     padding-bottom: 0;
  }
  .team-subtitle {
      margin-bottom: 8px;
@@ -292,6 +303,9 @@
  .footer{
      background-color: 
      #2F303A;
+     padding-top: 0;
+     padding-bottom: 0;
+
  }
  .address{
  font-family: inherit;
@@ -315,6 +329,10 @@
      color: #FFFFFF;
  }
  /*Portfolio*/
+ .nav-conteiner{
+    padding-top: 94px;
+    padding-bottom: 94px;
+ }
  .photo-title{
      margin-bottom: 8px;
  font-weight: 700;
@@ -337,18 +355,38 @@
  }
  .btn-portfolio{
      margin-left: auto;
-     margin-right: auto;    
+     margin-right: auto;
+     padding: 6px 22px 6px 22px;    
  
- font-family: inherit;
- font-weight: 500;
- font-size: 16px;
- line-height: calc(26 / 16);
- color: #212121;
- background-color: #F5F4FA;
- cursor: pointer;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(26 / 16);
+    color: #212121;
+    background-color: #F5F4FA;
+    cursor: pointer;
+    height: 38px;
  }
  .btn-portfolio:hover,
  .btn-portfolio:focus{
      background-color: #2196F3;
      color: #FFFFFF;
+ }
+ .btn1{
+    width: 73px;
+    
+ }
+ .btn2{
+    width: 128px;
+
+ }
+.btn3{width: 145px;
+    }
+ .btn4{
+    width: 103px;
+
+ }
+ .btn{
+    width: 130px;
+
  }
