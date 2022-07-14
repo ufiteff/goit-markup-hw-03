@@ -41,6 +41,7 @@
      list-style: none;
      padding: 0;
      margin: 0;
+     
  }
  .container{
      width: 1200px;
@@ -56,16 +57,19 @@
    
  /* Header */
  /* logo*/
+ 
  .header-container{
      display: flex;
      padding-top: 24px;
      padding-bottom: 24px;
-     border-bottom: 2px solid black
+    
+  
  }
  .header-nav 
  {
      display: flex;
      align-items: center;
+     
   
      
  }
@@ -135,10 +139,12 @@
  }
  
  /* Maine */
+ 
+ 
  .main_picture{
      background-color: var(--dark-bg-cl);
-     padding-top: 0px;
-     padding-bottom: 0px;
+     padding-top: 200px;
+     padding-bottom: 200px;
  
  }
  .main_title{
@@ -146,8 +152,7 @@
  margin-right: auto;
  margin-left: auto;
  
- padding-top: 200px;
- padding-bottom: 280px;
+
  width: 696px;
  margin-bottom: 30px;
  
@@ -168,6 +173,8 @@
  
  margin-left: auto;
  margin-right: auto;
+ padding: 10px 32px 10px 32px;
+
  
  
  
@@ -179,6 +186,7 @@
  background-color: #2196F3;
  color: #FFFFFF;
  cursor: pointer;
+ 
  }
  .button:hover,
  .button:focus{
@@ -186,13 +194,12 @@
  }
  /* Work priorities */
  .priorities{
-    padding-top: 0;
-    padding-bottom: 0;
+    padding-top: 94px;
+    padding-bottom: 94px;
  }
  .work-list{
      display: flex;
-     padding-top: 94px;
-     padding-bottom: 94px;
+     
  }
  .priorities_title{
  font-weight: 700;
@@ -204,7 +211,8 @@
  
  width: 270px;
  height: 16px;
- margin-right: 30px;
+ 
+ margin-bottom: 10px;
  }
  .priorities_title:last-child{
      margin-right: 0;
@@ -218,16 +226,16 @@
  color: #757575;
  width: 270px;
  
- margin-right: 30;
+ 
  
  }
  .text:last-child{
      margin-right: 0;
  }
  /* What we doing */
- .about_work{
-    padding-top: 0px;
-    padding-bottom: 0px;
+ .about_work, .team{
+    padding-top: 94px;
+    padding-bottom: 94px;
  }
  .about-list{
      display: flex;
@@ -249,6 +257,8 @@
  line-height: calc(42 / 36);
  text-align: center;
  letter-spacing: 0.03em;
+
+ margin-bottom: 50px;
  }
  
  
@@ -258,21 +268,21 @@
  display: flex;
  flex-wrap: wrap;
  gap: 30px;
- padding-bottom: 94px;
- }
- .img-team{
+
  
  }
+ 
  
  
  
  .team{
      background-color: #F5F4FA;
-     padding-top: 0;
-     padding-bottom: 0;
+     
  }
  .team-subtitle {
-     margin-bottom: 8px;
+     margin-bottom: 10px;
+    
+     
  font-weight: 500;
  font-size: 16px;
  line-height: calc(19 / 16);
@@ -287,27 +297,40 @@
      letter-spacing: 0.03em;
      
      color: #757575;
+    
      
      
  }
  .team-wrapper{
-     border: 1px solid black;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+ }
+ .team-wrapper-portfolio{
+     border: 1px solid #EEEEEE;
      border-top: none;
-     padding-top: 30px;
-     padding-bottom: 30px;
-     padding-left: 5px;
-     padding-right: 5px;
+     padding-top: 20px;
+     padding-bottom: 20px;
+     padding-left: 24px;
+     padding-right: 24px;
  }
  
  /*Footer*/
+ .contact_type_footer{
+    padding: 0;
+    margin: 0;
+ }
  .footer{
      background-color: 
      #2F303A;
-     padding-top: 0;
-     padding-bottom: 0;
+     padding-top: 60px;
+     padding-bottom: 60px;
 
  }
  .address{
+    margin-top: 20px;
+    margin-bottom: 9px;
  font-family: inherit;
  font-style: normal;
  font-weight: 400;
@@ -316,6 +339,8 @@
  letter-spacing: 0.03em;
  color: #FFFFFF;
  }
+ 
+ 
  .footer-mail, .footer-phone{
  font-family: inherit;
  font-style: normal;
@@ -324,17 +349,25 @@
  line-height: calc(24 / 14);
  letter-spacing: 0.03em;
  color: rgba(255, 255, 255, 0.6);
+ 
+ }
+ .footer-mail{
+    margin-bottom: 9px;
  }
  .other-footer{
      color: #FFFFFF;
  }
  /*Portfolio*/
- .nav-conteiner{
+ .header-container-portfolio{
+    border-bottom: 1px solid #ECECEC;
+ }
+ .photo-portfolio{
     padding-top: 94px;
     padding-bottom: 94px;
+    
  }
  .photo-title{
-     margin-bottom: 8px;
+     margin-bottom: 4px;
  font-weight: 700;
  font-size: 18px;
  line-height: calc(36 / 18);
@@ -356,7 +389,8 @@
  .btn-portfolio{
      margin-left: auto;
      margin-right: auto;
-     padding: 6px 22px 6px 22px;    
+     padding: 6px 22px 6px 22px;  
+     border: none;  
  
     font-family: inherit;
     font-weight: 500;
